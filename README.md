@@ -38,7 +38,7 @@ Training and Validation Accuracy curve.
 
 
 
-![Accuracy](Images/Accurcay.png)
+![Accuracy](Images/Accuracy.png)
 
 
 
