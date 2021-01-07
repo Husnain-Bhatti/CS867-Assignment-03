@@ -45,12 +45,14 @@ Training and Validation Accuracy curve.
 
 
 
+
+
 Classifcation report of the new trained model.
 
 
 
 
-![Classifcation](Images/Classifcation.JPG)
+![Classification](Images/Classification.JPG)
 
 
 
