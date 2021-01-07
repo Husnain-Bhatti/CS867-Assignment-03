@@ -13,3 +13,6 @@ You are supposed to work in following manner:
 • Validation set = 3k+ 150x150 Images in seg_test folder for cross-validation spread.
 • Test set = 7k+ 150x150 Images in seg_pred folder as test spread.
 ![Data_example](Images/Dataset.JPG)
+
+Google drive link for data set is given below
+(https://drive.google.com/drive/u/1/folders/1sFv45c9C8kzYxgn0HrFd9OBJnGrjoHj0)
