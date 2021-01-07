@@ -12,14 +12,14 @@ You are supposed to work in following manner:
 • Training set = 14k+ 150x150 Images in seg_train folder for training spread.
 • Validation set = 3k+ 150x150 Images in seg_test folder for cross-validation spread.
 • Test set = 7k+ 150x150 Images in seg_pred folder as test spread.
-![Data_example](Images/Dataset.JPG)
+![Data](Images/Dataset.JPG)
 
 Google drive link for data set is given below
 (https://drive.google.com/drive/u/1/folders/1sFv45c9C8kzYxgn0HrFd9OBJnGrjoHj0)
 
 #### ResNet
 ResNet was proposed by He et al., which is considered as a continuation of deep networks (He et al. 2015a). ResNet revolutionized the CNN architectural race by introducing the concept of residual learning in CNNs and devised an efficient methodology for the training of deep networks. Similar to Highway Networks, it is also placed under the Multi-Path based CNNs; thus, its learning methodology is discussed in Section 4.3.2. ResNet proposed 152-layers deep CNN, which won the 2015-ILSVRC competition. The architecture of the residual block of ResNet is shown in Fig. 7. ResNet, which was 20 and 8 times deeper than AlexNet and VGG, respectively, showed less computational complexity than previously proposed networks (Krizhevsky et al. 2012; Simonyan and Zisserman 2015). He et al. empirically showed that ResNet with 50/101/152 layers has less error on image classification task than 34 layers plain Net. Moreover, ResNet gained a 28% improvement on the famous image recognition benchmark dataset named COCO (Lin et al. 2014). Good performance of ResNet on image recognition and localization tasks showed that representational depth is of central importance for many visual recognition tasks.
-![Data_example](Images/ResNet50.PNG)
+![architechure](Images/ResNet50.PNG)
 
 ##### Model Training and Validation graphs
 A pre-trained ResNet50 model is taken from Keras applications excluding top layers. Top layers are added addtionally to trained it on given data set. Trained Data is processed through data augmentation to avoid overfiiting. The trained model is then tested on an unseen data which provides good prediction. Here are Model Training and Validation loss/accuracy curves
