@@ -22,13 +22,13 @@ ResNet was proposed by He et al., which is considered as a continuation of deep 
 ![architechure](Images/ResNet.png)
 
 ##### Model Training and Validation graphs
-A pre-trained ResNet50 model is taken from Keras applications excluding top layers. Top layers are added addtionally to trained it on given data set. Trained Data is processed through data augmentation to avoid overfiiting. The trained model is then tested on an unseen data which provides good prediction. Here are Model Training and Validation loss curves
+A pre-trained ResNet50 model is taken from Keras applications excluding top layers. Top layers are added addtionally to trained it on given data set. Trained Data is processed through data augmentation to avoid overfiiting. The trained model is then tested on an unseen data which provides good prediction. Here are Model Training and Validation loss curves.
 ![loss](Images/loss.png)
 
-# Training and Validation Accuracy curve
+Training and Validation Accuracy curve.
 ![Accuracy](Images/Accurcay.png)
 
-# Classifcation report of the new trained model
+Classifcation report of the new trained model.
 ![Classifcation](Images/Classifcation.JPG)
 
 Google drive link for the trained model weights is given below
